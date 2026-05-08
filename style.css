@@ -1,0 +1,48 @@
+/* Reset di base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+main {
+    background: #fff;
+    padding: 20px;
+    min-height: 400px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    background: #ddd;
+    border-radius: 0 0 8px 8px;
+}
