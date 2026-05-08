@@ -119,3 +119,41 @@ footer {
     border-radius: 0 0 12px 12px;
     border-top: 1px solid #eee;
 }
+
+/* Stili per la sezione Vantaggi */
+#vantaggi {
+    margin-top: 40px;
+}
+
+.vantaggi-list {
+    list-style: none;
+    padding: 25px;
+    background: #fdfdfd;
+    border: 1px dashed #3498db;
+    border-radius: 12px;
+}
+
+.vantaggi-list li {
+    margin-bottom: 20px;
+    padding-left: 35px;
+    position: relative;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Checkmark personalizzato */
+.vantaggi-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.vantaggi-list li strong {
+    color: #1a1a2e;
+    display: block;
+    margin-bottom: 4px;
+}
